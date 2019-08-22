@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Calls the DarkSky weather API and Returns Data for Latitude and Longitude supplied by User.</description>
+        <internal_name>get_weather</internal_name>
+        <label_cache>[{"name":"{{step[a8990bac-a1dd-46d5-a16e-8d41f89e288e].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[a8990bac-a1dd-46d5-a16e-8d41f89e288e].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a8990bac-a1dd-46d5-a16e-8d41f89e288e].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].s}}","label":"step➛Parse JSON Output➛s","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].su}}","label":"step➛Parse JSON Output➛su","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].sum}}","label":"step➛Parse JSON Output➛sum","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].summ}}","label":"step➛Parse JSON Output➛summ","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].summa}}","label":"step➛Parse JSON Output➛summa","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].summar}}","label":"step➛Parse JSON Output➛summar","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].summary}}","label":"step➛Parse JSON Output➛summary","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].t}}","label":"step➛Parse JSON Output➛t","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].te}}","label":"step➛Parse JSON Output➛te","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].tem}}","label":"step➛Parse JSON Output➛tem","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].temp}}","label":"step➛Parse JSON Output➛temp","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].tempe}}","label":"step➛Parse JSON Output➛tempe","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].temper}}","label":"step➛Parse JSON Output➛temper","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].tempera}}","label":"step➛Parse JSON Output➛tempera","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].temperat}}","label":"step➛Parse JSON Output➛temperat","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].temperatu}}","label":"step➛Parse JSON Output➛temperatu","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].temperatur}}","label":"step➛Parse JSON Output➛temperatur","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].temperature}}","label":"step➛Parse JSON Output➛temperature","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].}}","label":"step➛Parse JSON Output➛","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].d}}","label":"step➛Parse JSON Output➛d","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].de}}","label":"step➛Parse JSON Output➛de","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].dew}}","label":"step➛Parse JSON Output➛dew","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].dewP}}","label":"step➛Parse JSON Output➛dewP","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].dewPo}}","label":"step➛Parse JSON Output➛dewPo","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].dewPoi}}","label":"step➛Parse JSON Output➛dewPoi","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].dewPoin}}","label":"step➛Parse JSON Output➛dewPoin","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].dewPoint}}","label":"step➛Parse JSON Output➛dewPoint","type":"step","ref":""},{"name":"{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].humidity}}","label":"step➛Parse JSON Output➛humidity","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Weather</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Weather">5e5ff363db537300ae50e9c94896196d</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:29</sys_created_on>
+        <sys_id>6e02ccf3db537300ae50e9c9489619f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Weather</sys_name>
+        <sys_package display_value="DarkSky_Spoke" source="x_378284_darksky_s">60a8376fdb137300ae50e9c9489619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DarkSky_Spoke">60a8376fdb137300ae50e9c9489619c5</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_6e02ccf3db537300ae50e9c9489619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e02ccf3db537300ae50e9c9489619f7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6e02ccf3db537300ae50e9c9489619f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6e02ccf3db537300ae50e9c9489619f7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:31</sys_created_on>
+        <sys_id>07020037db537300ae50e9c948961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <value/>
+        <variable display_value="">f6020037db537300ae50e9c948961948</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6e02ccf3db537300ae50e9c9489619f7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:31</sys_created_on>
+        <sys_id>8b020037db537300ae50e9c948961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <value/>
+        <variable display_value="">b6020037db537300ae50e9c948961943</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6e02ccf3db537300ae50e9c9489619f7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:31</sys_created_on>
+        <sys_id>c7020037db537300ae50e9c948961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <value/>
+        <variable display_value="">be020037db537300ae50e9c94896193d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e02ccf3db537300ae50e9c9489619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dewpoint</field>
+        <id>6e02ccf3db537300ae50e9c9489619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:31</sys_created_on>
+        <sys_id>83020037db537300ae50e9c948961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6e02ccf3db537300ae50e9c9489619f7</table>
+        <value>{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].dewPoint}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>humidity</field>
+        <id>6e02ccf3db537300ae50e9c9489619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:31</sys_created_on>
+        <sys_id>cf020037db537300ae50e9c948961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6e02ccf3db537300ae50e9c9489619f7</table>
+        <value>{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].humidity}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>summary</field>
+        <id>6e02ccf3db537300ae50e9c9489619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:31</sys_created_on>
+        <sys_id>4b020037db537300ae50e9c948961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6e02ccf3db537300ae50e9c9489619f7</table>
+        <value>{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].summary}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>temperature</field>
+        <id>6e02ccf3db537300ae50e9c9489619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 19:57:31</sys_created_on>
+        <sys_id>0f020037db537300ae50e9c948961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 19:57:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6e02ccf3db537300ae50e9c9489619f7</table>
+        <value>{{step[6536d23a-6b7c-41f3-a998-948b56bfbc1f].temperature}}</value>
+    </sys_element_mapping>
+</record_update>
